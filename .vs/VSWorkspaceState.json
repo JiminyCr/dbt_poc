@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\analysis",
+    "\\data",
+    "\\macros",
+    "\\models"
+  ],
+  "SelectedNode": "\\dbt_project.yml",
+  "PreviewInSolutionExplorer": false
+}
