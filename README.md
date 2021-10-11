@@ -1,10 +1,25 @@
-Welcome to your new dbt project!
 
-### Using the starter project
+Steps :
 
-Try running the following commands:
-- dbt run
-- dbt test
+	- Create a project
+		https://docs.getdbt.com/docs/building-a-dbt-project/projects
+	- Update .dbt\profiles.yml
+		copy template from this website to .dbt\profiles.yml
+		https://docs.getdbt.com/reference/warehouse-profiles/snowflake-profile#overview-of-dbt-snowflake
+	- Profile name in .dbt\profiles.yml should match dbt_project.yml's profile
+	- run dbt debug - test connection
+	- run dbt run	- run project
+	- run dbt test	- run test
+
+
+Notes:
+	-	how to start a dbt project either cloud or cli
+		https://docs.getdbt.com/tutorial/setting-up
+
+	- select from source tables in your models using the {{ source() }} function, helping define the lineage of your data
+	
+	From <https://docs.getdbt.com/docs/building-a-dbt-project/using-sources> 
+
 
 
 ### Resources:
