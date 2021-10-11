@@ -3,9 +3,12 @@
     "",
     "\\analysis",
     "\\data",
-    "\\macros",
-    "\\models"
+    "\\models",
+    "\\models\\example",
+    "\\models\\snowflake_poc",
+    "\\snapshots",
+    "\\tests"
   ],
-  "SelectedNode": "\\dbt_project.yml",
+  "SelectedNode": "\\models\\snowflake_poc\\snowflake_poc_orders.sql",
   "PreviewInSolutionExplorer": false
 }

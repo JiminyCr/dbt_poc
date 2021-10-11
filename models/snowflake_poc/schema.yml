@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: aws_staging_data
+    description: 'sample db provided by w3 school'
+    database: AWS_DB
+    schema: staging
+    tables:
+      - name: agents
+        description: 'agents table'
+      - name: customer
+        description: 'customer table'
+      - name: orders
+        description: 'orders table'
+
